@@ -8,6 +8,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "allheaders.h"
 
 @interface Tesseract : NSObject {    
     NSString* _dataPath;
@@ -23,5 +24,8 @@
 - (BOOL)setLanguage:(NSString *)language;
 - (BOOL)recognize;
 - (NSString *)recognizedText;
+
+- (void)setPix:(PIX *)pix;
++ (PIX *)convertUIImage2Pix:(UIImage *)image;
 
 @end

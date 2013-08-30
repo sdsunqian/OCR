@@ -11,7 +11,7 @@
 
 #import "baseapi.h"
 #import "environ.h"
-#import "pix.h"
+#import "allheaders.h"
 
 namespace tesseract {
     class TessBaseAPI;
@@ -147,6 +147,48 @@ namespace tesseract {
     CGColorSpaceRelease(colorSpace);
     
     _tesseract->SetImage((const unsigned char *) _pixels, width, height, sizeof(uint32_t), width * sizeof(uint32_t));
+}
+
+- (void)setPix:(PIX *)pix
+{
+    _tesseract->SetImage(pix);
+}
+
++ (PIX *)convertUIImage2Pix:(UIImage *)image
+{
+    uint32_t* _imagePixels;
+    
+    CGSize size = [image size];
+    int width = size.width;
+    int height = size.height;
+	
+	if (width <= 0 || height <= 0) {
+		return NULL;
+    }
+	
+    _imagePixels = (uint32_t *) malloc(width * height * sizeof(uint32_t));
+    
+    // Clear the pixels so any transparency is preserved
+    memset(_imagePixels, 0, width * height * sizeof(uint32_t));
+	
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+	
+    // Create a context with RGBA _pixels
+    CGContextRef context = CGBitmapContextCreate(_imagePixels, width, height, 8, width * sizeof(uint32_t), colorSpace,
+                                                 kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedLast);
+	
+    // Paint the bitmap to our context which will fill in the _pixels array
+    CGContextDrawImage(context, CGRectMake(0, 0, width, height), [image CGImage]);
+	
+	// We're done with the context and color space
+    CGContextRelease(context);
+    CGColorSpaceRelease(colorSpace);
+    
+    // Create a PIX and set data
+    PIX * pRGBA = pixCreate (width, height, 32);
+    pixSetData(pRGBA, _imagePixels);
+    
+    return pRGBA;
 }
 
 @end

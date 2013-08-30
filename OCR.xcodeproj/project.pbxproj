@@ -16,13 +16,9 @@
 		5489784A16CBF56E00A44317 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5489784916CBF56E00A44317 /* Default.png */; };
 		5489784C16CBF56E00A44317 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5489784B16CBF56E00A44317 /* Default@2x.png */; };
 		5489784E16CBF56E00A44317 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5489784D16CBF56E00A44317 /* Default-568h@2x.png */; };
-		548978ED16CBF5F000A44317 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5489785616CBF5F000A44317 /* .gitignore */; };
 		548978EE16CBF5F000A44317 /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 548978EA16CBF5F000A44317 /* liblept.a */; };
 		548978EF16CBF5F000A44317 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 548978EB16CBF5F000A44317 /* libtesseract_all.a */; };
-		548978F016CBF5F000A44317 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 548978EC16CBF5F000A44317 /* README.md */; };
 		548978F716CBF63700A44317 /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 548978F416CBF63700A44317 /* Tesseract.mm */; };
-		548978F816CBF63700A44317 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 548978F516CBF63700A44317 /* LICENSE */; };
-		548978F916CBF63700A44317 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 548978F616CBF63700A44317 /* README.md */; };
 		548978FC16CBF70A00A44317 /* OCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548978FB16CBF70A00A44317 /* OCRViewController.m */; };
 		5489795316CBFE6300A44317 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 5489795216CBFE6300A44317 /* tessdata */; };
 		6FD7FAE817D080E0009DFC44 /* image_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FD7FAE717D080E0009DFC44 /* image_sample.jpg */; };
@@ -42,7 +38,6 @@
 		5489784916CBF56E00A44317 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5489784B16CBF56E00A44317 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5489784D16CBF56E00A44317 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5489785616CBF5F000A44317 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5489785916CBF5F000A44317 /* allheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
 		5489785A16CBF5F000A44317 /* alltypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alltypes.h; sourceTree = "<group>"; };
 		5489785B16CBF5F000A44317 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
@@ -188,11 +183,8 @@
 		548978E816CBF5F000A44317 /* werdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werdit.h; sourceTree = "<group>"; };
 		548978EA16CBF5F000A44317 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
 		548978EB16CBF5F000A44317 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
-		548978EC16CBF5F000A44317 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		548978F316CBF63700A44317 /* Tesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tesseract.h; sourceTree = "<group>"; };
 		548978F416CBF63700A44317 /* Tesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Tesseract.mm; sourceTree = "<group>"; };
-		548978F516CBF63700A44317 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		548978F616CBF63700A44317 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		548978FA16CBF70A00A44317 /* OCRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRViewController.h; sourceTree = "<group>"; };
 		548978FB16CBF70A00A44317 /* OCRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCRViewController.m; sourceTree = "<group>"; };
 		5489795216CBFE6300A44317 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = Data/tessdata; sourceTree = "<group>"; };
@@ -283,10 +275,8 @@
 		5489785516CBF5F000A44317 /* tesseract-ios-lib */ = {
 			isa = PBXGroup;
 			children = (
-				5489785616CBF5F000A44317 /* .gitignore */,
 				5489785716CBF5F000A44317 /* include */,
 				548978E916CBF5F000A44317 /* lib */,
-				548978EC16CBF5F000A44317 /* README.md */,
 			);
 			path = "tesseract-ios-lib";
 			sourceTree = "<group>";
@@ -470,8 +460,6 @@
 			isa = PBXGroup;
 			children = (
 				548978F216CBF63700A44317 /* Classes */,
-				548978F516CBF63700A44317 /* LICENSE */,
-				548978F616CBF63700A44317 /* README.md */,
 			);
 			path = "tesseract-ios";
 			sourceTree = "<group>";
@@ -549,10 +537,6 @@
 				5489784A16CBF56E00A44317 /* Default.png in Resources */,
 				5489784C16CBF56E00A44317 /* Default@2x.png in Resources */,
 				5489784E16CBF56E00A44317 /* Default-568h@2x.png in Resources */,
-				548978ED16CBF5F000A44317 /* .gitignore in Resources */,
-				548978F016CBF5F000A44317 /* README.md in Resources */,
-				548978F816CBF63700A44317 /* LICENSE in Resources */,
-				548978F916CBF63700A44317 /* README.md in Resources */,
 				5489795316CBFE6300A44317 /* tessdata in Resources */,
 				6FD7FAE817D080E0009DFC44 /* image_sample.jpg in Resources */,
 			);
