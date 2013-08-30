@@ -24,9 +24,8 @@
 		548978F816CBF63700A44317 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 548978F516CBF63700A44317 /* LICENSE */; };
 		548978F916CBF63700A44317 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 548978F616CBF63700A44317 /* README.md */; };
 		548978FC16CBF70A00A44317 /* OCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548978FB16CBF70A00A44317 /* OCRViewController.m */; };
-		5489790016CBF84100A44317 /* check.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548978FE16CBF84100A44317 /* check.jpg */; };
 		5489795316CBFE6300A44317 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 5489795216CBFE6300A44317 /* tessdata */; };
-		5489795516CBFFA000A44317 /* Abundance-Cheque-Example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5489795416CBFFA000A44317 /* Abundance-Cheque-Example.jpg */; };
+		6FD7FAE817D080E0009DFC44 /* image_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FD7FAE717D080E0009DFC44 /* image_sample.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,9 +195,8 @@
 		548978F616CBF63700A44317 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		548978FA16CBF70A00A44317 /* OCRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRViewController.h; sourceTree = "<group>"; };
 		548978FB16CBF70A00A44317 /* OCRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCRViewController.m; sourceTree = "<group>"; };
-		548978FE16CBF84100A44317 /* check.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = check.jpg; sourceTree = "<group>"; };
 		5489795216CBFE6300A44317 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = Data/tessdata; sourceTree = "<group>"; };
-		5489795416CBFFA000A44317 /* Abundance-Cheque-Example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abundance-Cheque-Example.jpg"; sourceTree = "<group>"; };
+		6FD7FAE717D080E0009DFC44 /* image_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_sample.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -490,8 +488,7 @@
 		548978FD16CBF84100A44317 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5489795416CBFFA000A44317 /* Abundance-Cheque-Example.jpg */,
-				548978FE16CBF84100A44317 /* check.jpg */,
+				6FD7FAE717D080E0009DFC44 /* image_sample.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -556,9 +553,8 @@
 				548978F016CBF5F000A44317 /* README.md in Resources */,
 				548978F816CBF63700A44317 /* LICENSE in Resources */,
 				548978F916CBF63700A44317 /* README.md in Resources */,
-				5489790016CBF84100A44317 /* check.jpg in Resources */,
 				5489795316CBFE6300A44317 /* tessdata in Resources */,
-				5489795516CBFFA000A44317 /* Abundance-Cheque-Example.jpg in Resources */,
+				6FD7FAE817D080E0009DFC44 /* image_sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,6 +691,7 @@
 				5489785316CBF56E00A44317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

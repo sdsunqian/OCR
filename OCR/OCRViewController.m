@@ -30,8 +30,8 @@
 	// Do any additional setup after loading the view.
     
     Tesseract* tesseract = [[Tesseract alloc] initWithDataPath:@"tessdata" language:@"eng"];
-    [tesseract setVariableValue:@"0123456789" forKey:@"tessedit_char_whitelist"];
-    [tesseract setImage:[UIImage imageNamed:@"Abundance-Cheque-Example.jpg"]];
+    //[tesseract setVariableValue:@"0123456789" forKey:@"tessedit_char_whitelist"];
+    [tesseract setImage:[UIImage imageNamed:@"image_sample.jpg"]];
     [tesseract recognize];
     
     NSLog(@"%@", [tesseract recognizedText]);
